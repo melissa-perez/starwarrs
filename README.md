@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requires a version of node to be installed.
+
+Find a node installation at [nodejs](https://nodejs.org/en)
+This project currently uses version `v20.13.1`
+Check version with `node -v`
+
 ## Available Scripts
 
 In the project directory, you can run:
