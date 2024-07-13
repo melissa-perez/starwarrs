@@ -6,8 +6,9 @@ function FilmBox({ film }) {
   return (
     <div>
       <h3>{properties.title}</h3>
-      <em>{properties.director}</em>
-      <p>{properties.episode_crawl}</p>
+      <h4>Episode {properties.episode_id}</h4>
+      <em>Director: {properties.director}</em>
+      <p>{properties.opening_crawl}</p>
       <p>Released: {properties.release_date}</p>
     </div>
   );
