@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #ffe81f;
+    --color-background-500: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-primary);
+    background-color: var(--color-background-500);
+}
+
+.list{
+    list-style: none;
+    padding: 0.8rem 0;
+    overflow: scroll;
+}
+
+.list.list-films li{
+    cursor: pointer;
+    transition: all 0.3s;
+}
