@@ -1,5 +1,12 @@
+import Navigation from '../components/Navigation';
+
 function Film() {
-  return <div>Film</div>;
+  return (
+    <div>
+      <Navigation />
+      Film
+    </div>
+  );
 }
 
 export default Film;
