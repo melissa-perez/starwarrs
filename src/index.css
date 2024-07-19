@@ -25,21 +25,10 @@ body {
   padding: 0.8rem 0;
 }
 
-.list.list-items li {
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
 .character-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-}
-
-li.selected {
-  border: 1px solid var(--color-background-500);
-  background-color: var(--color-primary-500);
-  color: var(--color-background-500);
 }
 
 li.unselected {
@@ -70,6 +59,8 @@ li.unselected {
   display: flex;
   align-items: center;
   gap: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .nav a:link,

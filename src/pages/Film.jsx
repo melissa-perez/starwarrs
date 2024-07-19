@@ -11,7 +11,7 @@ function Film() {
       <Navigation />
       <div>
         {isLoading && <p>Loading...</p>}
-        {!isLoading && error && <p>Error: {error.message}</p>}
+        {error && <p>Error: {error.message}</p>}
         {!isLoading && <FilmBoxList films={data?.result} />}
       </div>
     </main>
