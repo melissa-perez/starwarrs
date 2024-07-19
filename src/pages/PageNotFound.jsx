@@ -1,10 +1,11 @@
 import Navigation from '../components/Navigation';
+
 function PageNotFound() {
   return (
-    <div>
+    <main className={'app'}>
       <Navigation />
       Page not found
-    </div>
+    </main>
   );
 }
 

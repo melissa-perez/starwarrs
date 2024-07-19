@@ -1,10 +1,10 @@
 import React from 'react';
 
 function CharacterBox({ character }) {
-  const { properties } = character;
+  const { name, url } = character;
   return (
     <li>
-      <p>{properties.name}</p>
+      <p>{name}</p>
     </li>
   );
 }

@@ -2,7 +2,6 @@ import React from 'react';
 
 function FilmBox({ film }) {
   const { properties } = film;
-  // need to do something with properties.characters(array)
   return (
     <li>
       <h3>{properties.title}</h3>

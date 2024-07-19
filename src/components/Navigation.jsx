@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <nav>
+    <nav className={"nav"}>
       <ul>
         <li>
-          <Link to="/">a</Link>
+          <NavLink to="/">Films</NavLink>
         </li>
         <li>
-          <Link to="/characters">b</Link>
+          <NavLink to="/characters">Characters</NavLink>
         </li>
       </ul>
     </nav>

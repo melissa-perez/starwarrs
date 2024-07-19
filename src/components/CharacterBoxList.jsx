@@ -3,9 +3,9 @@ import CharacterBox from './CharacterBox';
 
 function CharacterBoxList({ characters }) {
   return (
-    <ul className="list list-films">
-      {characters?.map((person) => (
-        <CharacterBox person={person} key={person.uid} />
+    <ul className="list list-items">
+      {characters?.map((character) => (
+        <CharacterBox character={character} key={character.uid} />
       ))}
     </ul>
   );
