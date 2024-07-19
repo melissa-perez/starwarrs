@@ -1,10 +1,10 @@
 import React from 'react';
 
-function CharacterBox({ character }) {
-  const { name, url } = character;
+function CharacterBox({ character, selectedId, handleCharacterClick }) {
+  const { name } = character;
   return (
-    <li>
-      <p>{name}</p>
+    <li className={character.uid === selectedId ? 'selected' : 'unselected'} onClick={handleCharacterClick}>
+      <h1>{character.uid === selectedId ? 'aaa' : name}</h1>
     </li>
   );
 }
