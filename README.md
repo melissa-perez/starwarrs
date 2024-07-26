@@ -15,6 +15,8 @@ Find a node installation at [nodejs](https://nodejs.org/en)
 This project currently uses version `v20.13.1`
 Check version with `node -v`
 
+## Clone or download repository to local machine.
+
 ## Available Scripts
 
 In the project directory, you can run:
